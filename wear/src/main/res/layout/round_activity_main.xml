@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="kth.thesis.chara.awsensorsdashboard.MainActivity"
+    tools:deviceIds="wear_round">
+
+    <TextView
+        android:id="@+id/accelXYZ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/xyz"
+        android:layout_below="@+id/accelTitle"
+        android:layout_alignStart="@+id/accelTitle" />
+
+    <TextView
+        android:id="@+id/accelValues"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/values"
+        android:layout_alignBaseline="@+id/accelXYZ"
+        android:layout_alignBottom="@+id/accelXYZ"
+        android:layout_toEndOf="@+id/accelXYZ" />
+
+    <TextView
+        android:id="@+id/accelTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/accelT"
+        android:layout_marginTop="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <TextView
+        android:id="@+id/gyroValues"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/values"
+        android:layout_alignBaseline="@+id/gyroXYZ"
+        android:layout_alignBottom="@+id/gyroXYZ"
+        android:layout_toEndOf="@+id/accelXYZ" />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:text="@string/stop"
+        android:id="@+id/stop"
+        android:background="@color/red"
+        android:layout_alignEnd="@+id/accelTitle"
+        android:layout_alignBottom="@+id/start"
+        android:layout_alignTop="@+id/start" />
+
+    <TextView
+        android:id="@+id/gyroXYZ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/xyz"
+        android:layout_below="@+id/accelXYZ"
+        android:layout_toStartOf="@+id/gyroValues"
+        android:layout_marginTop="18dp" />
+
+    <TextView
+        android:id="@+id/gyroTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gyroT"
+        android:layout_above="@+id/gyroValues"
+        android:layout_alignStart="@+id/gyroXYZ" />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="50dp"
+        android:layout_height="27dp"
+        android:text="@string/start"
+        android:background="@color/green"
+        android:layout_below="@+id/gyroValues"
+        android:layout_alignStart="@+id/gyroXYZ" />
+
+
+</RelativeLayout>

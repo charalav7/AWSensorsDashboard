@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AW Sensors Dashboard</string>
+    <string name="accelT">Accelerometer (m/s2)</string>
+    <string name="gyroT">Gyroscope (rad/s)</string>
+    <string name="xyz">x= \ny= \nz= </string>
+    <string name="values">0 \n0 \n0 </string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+</resources>

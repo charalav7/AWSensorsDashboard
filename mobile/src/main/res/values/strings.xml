@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AW Sensors Dashboard</string>
+    <string name="info">Android Wear sensor data collection.\nAn application created as part of a Masters thesis at KTH, School of Technology and Health.\nCreated by Vasileios Charalampidis.\n</string>
+    <string name="collectAccel">Collecting accelerometer data...</string>
+    <string name="collectGyro">Collecting gyroscope data...</string>
+    <string name="collectHeart">Collecting heart rate data...</string>
+    <string name="xyz">x= \ny= \nz= \n</string>
+    <string name="values">0 \n0 \n0 \n</string>
+</resources>
